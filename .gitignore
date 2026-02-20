@@ -1,0 +1,46 @@
+# Data (large files, downloaded/generated)
+data/raw/
+data/processed/
+
+# Model artifacts
+models/
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+
+# Cache
+cache/
+
+# Logs
+logs/
+
+# Evaluation results
+eval/results/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TensorBoard
+logs/ppo_fleet/
+
+CLAUDE.md
